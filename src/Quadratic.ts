@@ -3,7 +3,7 @@ const a = inputs[0].value
 const b = inputs[1].value
 const c = inputs[2].value
 
-console.log(inputs)
+
 const evaluate =(num:number)=>{
     num = +num ? +num.toFixed(2) : 0;
     return num;
@@ -15,5 +15,5 @@ const Quad = (a:number, b:number,c:number)=>{
     return `the roots are ${x1} and ${x2}`
 }
 
-const solve = Quad(a,b,c)
+const solve = Quad(1,-8,15)
 console.log(solve)
