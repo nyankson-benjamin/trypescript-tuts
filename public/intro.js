@@ -116,7 +116,7 @@ let greet;
 greet = (name, greeting) => {
     console.log(`${name} says ${greeting}`);
 };
-// greet('MIles', 'Hello');
+greet('MIles', 'Hello');
 let calculate;
 calculate = (num1, num2, action) => {
     if (action === 'add') {
@@ -126,4 +126,4 @@ calculate = (num1, num2, action) => {
         return num1 - num2;
     }
 };
-// console.log(calculate(20, 4, 'add'));
+console.log(calculate(20, 4, 'add'));
